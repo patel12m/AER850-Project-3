@@ -1,9 +1,7 @@
 !pip install ultralytics
-!pip install itertools
 
 import cv2
 import matplotlib.pyplot as plt
-import itertools
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
