@@ -8,7 +8,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt')
 
 # Train the model
-model.train(data='/content/drive/MyDrive/Project 3 Data/data/data.yaml', epochs=250, batch=3, imgsz=1216, name='trained_yolov8_model')
+model.train(data='/content/drive/MyDrive/Project 3 Data/data/data.yaml', epochs=100, batch=5, imgsz=1216, name='trained_yolov8_model')
 
 # Paths to the images
 image_paths = [
